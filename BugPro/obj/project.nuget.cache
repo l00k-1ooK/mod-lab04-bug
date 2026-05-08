@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZFskj5Yl53g=",
+  "success": true,
+  "projectFilePath": "E:\\Лука\\прога\\4 курс\\Моделирование информационных процессов и систем\\mod-lab04-bug\\BugPro\\BugPro.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\luka_\\.nuget\\packages\\stateless\\5.13.0\\stateless.5.13.0.nupkg.sha512",
+    "C:\\Users\\luka_\\.nuget\\packages\\microsoft.netcore.app.ref\\9.0.14\\microsoft.netcore.app.ref.9.0.14.nupkg.sha512",
+    "C:\\Users\\luka_\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\9.0.14\\microsoft.windowsdesktop.app.ref.9.0.14.nupkg.sha512",
+    "C:\\Users\\luka_\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\9.0.14\\microsoft.aspnetcore.app.ref.9.0.14.nupkg.sha512",
+    "C:\\Users\\luka_\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\9.0.14\\microsoft.netcore.app.host.win-x64.9.0.14.nupkg.sha512"
+  ],
+  "logs": []
+}
