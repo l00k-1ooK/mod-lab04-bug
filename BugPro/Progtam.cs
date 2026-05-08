@@ -40,15 +40,13 @@ namespace BugPro
             _machine.Configure(State.Triaging)
                 .Permit(Trigger.Assign, State.InProgress)
                 .Permit(Trigger.Reject, State.Closed)
-                .Permit(Trigger.Defer, State.Triaging)
-                .Permit(Trigger.NeedMoreInfo, State.Triaging)
+                .PermitReentry(Trigger.NeedMoreInfo)
                 .OnEntry(() =>
                     Console.WriteLine("Состояние: Разбор дефектов"));
 
             _machine.Configure(State.InProgress)
                 .Permit(Trigger.Fix, State.Resolved)
                 .Permit(Trigger.Defer, State.Triaging)
-                .Permit(Trigger.NeedMoreInfo, State.Triaging)
                 .OnEntry(() =>
                     Console.WriteLine("Состояние: Исправление"));
 
